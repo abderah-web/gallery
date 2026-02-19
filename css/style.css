@@ -1,6 +1,6 @@
 div {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     justify-content: center;
 }
 .preview{
@@ -19,12 +19,11 @@ div {
 }
 #image{
     background-color: aquamarine;
-    width: 100px;
-    height:100px;
+    width: auto;
+    height:400px;
     text-align: center;
     position: relative;
-    left: 43%;
-    margin: 10px;
+
     padding: 10px 0 10px;
 }
 
