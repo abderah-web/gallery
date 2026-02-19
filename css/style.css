@@ -1,0 +1,38 @@
+div {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+}
+.preview{
+    grid-template-columns:50% 50%;
+    width: 100px;
+    height:100px;
+    margin: 10px;
+    border: 1px solid black;
+    transition-property: border,shadow;
+    transition-duration: 0.5;
+    transition-timing-function: ease;
+}
+.preview:hover {
+    border: 3px solid red;
+    box-shadow: 20px;
+}
+#image{
+    background-color: aquamarine;
+    width: auto;
+    height:400px;
+    text-align: center;
+    position: relative;
+
+    padding: 10px 0 10px;
+}
+
+body{
+    box-sizing: border-box;
+}
+h1 {
+    justify-items: center;
+    justify-content: CENTER;
+}
+
+
